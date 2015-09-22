@@ -29,7 +29,7 @@
         
         NSLog(@"加载完成");
     }];*/
-    
+
     [filterManager compositeFilters:@[[filterManager sepiaFilter], [filterManager contrastFilterWithContrast:2.0]] completionHandler:^(GPUImageFilterPipeline *filterPipeline) {
        
         NSLog(@"组合滤镜加载完成");
