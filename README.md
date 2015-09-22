@@ -10,15 +10,14 @@
 ##### EZInputPicture
   
 - 输入的图片类  
-  - 创建被渲染的图片
-  - 渲染图片
+  - 创建准备被渲染的图片 `initWithInput:output:`
 
 ===  
   
 ##### EZOutputView
 
 - 输出的视图类  
-  - 创建承载被渲染的试图容器
+  - 创建承载被渲染的试图容器 `initWithInput:output:`
   - 将试图容器添加到视图上  
 
 ===  
