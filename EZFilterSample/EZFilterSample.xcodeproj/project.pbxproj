@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D361C461BAFE95100E1F4F2 /* EZFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D361C411BAFE95100E1F4F2 /* EZFilterManager.m */; settings = {ASSET_TAGS = (); }; };
-		9D361C471BAFE95100E1F4F2 /* EZInputPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D361C431BAFE95100E1F4F2 /* EZInputPicture.m */; settings = {ASSET_TAGS = (); }; };
-		9D361C481BAFE95100E1F4F2 /* EZOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D361C451BAFE95100E1F4F2 /* EZOutputView.m */; settings = {ASSET_TAGS = (); }; };
-		9D361C741BAFF38900E1F4F2 /* EZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D361C731BAFF38900E1F4F2 /* EZAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		9D361C771BAFF3F200E1F4F2 /* EZFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D361C761BAFF3F200E1F4F2 /* EZFilterViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9D361C7E1BAFF8E000E1F4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D361C7C1BAFF8E000E1F4F2 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		9DFB458C1BAF2CEE00A14401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB458B1BAF2CEE00A14401 /* main.m */; };
-		9DFB459A1BAF2CEE00A14401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB45981BAF2CEE00A14401 /* LaunchScreen.storyboard */; };
+		9D4979A71BB103B7002A6ED6 /* EZFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4979A21BB103B7002A6ED6 /* EZFilterManager.m */; settings = {ASSET_TAGS = (); }; };
+		9D4979A81BB103B7002A6ED6 /* EZInputPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4979A41BB103B7002A6ED6 /* EZInputPicture.m */; settings = {ASSET_TAGS = (); }; };
+		9D4979A91BB103B7002A6ED6 /* EZOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4979A61BB103B7002A6ED6 /* EZOutputView.m */; settings = {ASSET_TAGS = (); }; };
+		9D4979AB1BB10426002A6ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4979AA1BB10426002A6ED6 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		9D4979B01BB10455002A6ED6 /* EZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4979AD1BB10455002A6ED6 /* EZAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		9D4979B11BB10455002A6ED6 /* EZFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4979AF1BB10455002A6ED6 /* EZFilterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9D4979B41BB10471002A6ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4979B21BB10471002A6ED6 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		9D4979B71BB10493002A6ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4979B61BB10493002A6ED6 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		9DFB4E111BAF2CEE00A14401 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB4E0C1BAF2CEE00A14401 /* libGPUImage.a */; };
 /* End PBXBuildFile section */
 
@@ -43,20 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D361C401BAFE95100E1F4F2 /* EZFilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZFilterManager.h; sourceTree = "<group>"; };
-		9D361C411BAFE95100E1F4F2 /* EZFilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZFilterManager.m; sourceTree = "<group>"; };
-		9D361C421BAFE95100E1F4F2 /* EZInputPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZInputPicture.h; sourceTree = "<group>"; };
-		9D361C431BAFE95100E1F4F2 /* EZInputPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZInputPicture.m; sourceTree = "<group>"; };
-		9D361C441BAFE95100E1F4F2 /* EZOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOutputView.h; sourceTree = "<group>"; };
-		9D361C451BAFE95100E1F4F2 /* EZOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOutputView.m; sourceTree = "<group>"; };
-		9D361C721BAFF38900E1F4F2 /* EZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAppDelegate.h; sourceTree = "<group>"; };
-		9D361C731BAFF38900E1F4F2 /* EZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAppDelegate.m; sourceTree = "<group>"; };
-		9D361C751BAFF3F200E1F4F2 /* EZFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZFilterViewController.h; sourceTree = "<group>"; };
-		9D361C761BAFF3F200E1F4F2 /* EZFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZFilterViewController.m; sourceTree = "<group>"; };
-		9D361C7C1BAFF8E000E1F4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D4979A11BB103B7002A6ED6 /* EZFilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZFilterManager.h; sourceTree = "<group>"; };
+		9D4979A21BB103B7002A6ED6 /* EZFilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZFilterManager.m; sourceTree = "<group>"; };
+		9D4979A31BB103B7002A6ED6 /* EZInputPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZInputPicture.h; sourceTree = "<group>"; };
+		9D4979A41BB103B7002A6ED6 /* EZInputPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZInputPicture.m; sourceTree = "<group>"; };
+		9D4979A51BB103B7002A6ED6 /* EZOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOutputView.h; sourceTree = "<group>"; };
+		9D4979A61BB103B7002A6ED6 /* EZOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOutputView.m; sourceTree = "<group>"; };
+		9D4979AA1BB10426002A6ED6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		9D4979AC1BB10455002A6ED6 /* EZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9D4979AD1BB10455002A6ED6 /* EZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		9D4979AE1BB10455002A6ED6 /* EZFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZFilterViewController.h; sourceTree = SOURCE_ROOT; };
+		9D4979AF1BB10455002A6ED6 /* EZFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZFilterViewController.m; sourceTree = SOURCE_ROOT; };
+		9D4979B31BB10471002A6ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		9D4979B61BB10493002A6ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DFB45871BAF2CEE00A14401 /* EZFilterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZFilterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DFB458B1BAF2CEE00A14401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9DFB45991BAF2CEE00A14401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFB459B1BAF2CEE00A14401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFB4C051BAF2CEE00A14401 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GPUImage.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,30 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D361C3F1BAFE95100E1F4F2 /* EZFilter */ = {
+		9D4979A01BB103B7002A6ED6 /* EZFilter */ = {
 			isa = PBXGroup;
 			children = (
-				9D361C401BAFE95100E1F4F2 /* EZFilterManager.h */,
-				9D361C411BAFE95100E1F4F2 /* EZFilterManager.m */,
-				9D361C421BAFE95100E1F4F2 /* EZInputPicture.h */,
-				9D361C431BAFE95100E1F4F2 /* EZInputPicture.m */,
-				9D361C441BAFE95100E1F4F2 /* EZOutputView.h */,
-				9D361C451BAFE95100E1F4F2 /* EZOutputView.m */,
+				9D4979A11BB103B7002A6ED6 /* EZFilterManager.h */,
+				9D4979A21BB103B7002A6ED6 /* EZFilterManager.m */,
+				9D4979A31BB103B7002A6ED6 /* EZInputPicture.h */,
+				9D4979A41BB103B7002A6ED6 /* EZInputPicture.m */,
+				9D4979A51BB103B7002A6ED6 /* EZOutputView.h */,
+				9D4979A61BB103B7002A6ED6 /* EZOutputView.m */,
 			);
 			path = EZFilter;
 			sourceTree = "<group>";
 		};
-		9D361C7B1BAFF8E000E1F4F2 /* Resources */ = {
+		9D4979B51BB10493002A6ED6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D361C7C1BAFF8E000E1F4F2 /* Assets.xcassets */,
+				9D4979B61BB10493002A6ED6 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		9DFB457E1BAF2CEE00A14401 = {
 			isa = PBXGroup;
 			children = (
+				9D4979A01BB103B7002A6ED6 /* EZFilter */,
 				9DFB45891BAF2CEE00A14401 /* EZFilterSample */,
 				9DFB4C041BAF2CEE00A14401 /* Framework */,
 				9DFB45881BAF2CEE00A14401 /* Products */,
@@ -114,13 +115,12 @@
 		9DFB45891BAF2CEE00A14401 /* EZFilterSample */ = {
 			isa = PBXGroup;
 			children = (
-				9D361C721BAFF38900E1F4F2 /* EZAppDelegate.h */,
-				9D361C731BAFF38900E1F4F2 /* EZAppDelegate.m */,
-				9D361C751BAFF3F200E1F4F2 /* EZFilterViewController.h */,
-				9D361C761BAFF3F200E1F4F2 /* EZFilterViewController.m */,
-				9D361C3F1BAFE95100E1F4F2 /* EZFilter */,
-				9D361C7B1BAFF8E000E1F4F2 /* Resources */,
-				9DFB45981BAF2CEE00A14401 /* LaunchScreen.storyboard */,
+				9D4979B51BB10493002A6ED6 /* Resources */,
+				9D4979AC1BB10455002A6ED6 /* EZAppDelegate.h */,
+				9D4979AD1BB10455002A6ED6 /* EZAppDelegate.m */,
+				9D4979AE1BB10455002A6ED6 /* EZFilterViewController.h */,
+				9D4979AF1BB10455002A6ED6 /* EZFilterViewController.m */,
+				9D4979B21BB10471002A6ED6 /* LaunchScreen.storyboard */,
 				9DFB458A1BAF2CEE00A14401 /* Supporting Files */,
 			);
 			path = EZFilterSample;
@@ -129,8 +129,8 @@
 		9DFB458A1BAF2CEE00A14401 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D4979AA1BB10426002A6ED6 /* main.m */,
 				9DFB459B1BAF2CEE00A14401 /* Info.plist */,
-				9DFB458B1BAF2CEE00A14401 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D361C7E1BAFF8E000E1F4F2 /* Assets.xcassets in Resources */,
-				9DFB459A1BAF2CEE00A14401 /* LaunchScreen.storyboard in Resources */,
+				9D4979B71BB10493002A6ED6 /* Assets.xcassets in Resources */,
+				9D4979B41BB10471002A6ED6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D361C461BAFE95100E1F4F2 /* EZFilterManager.m in Sources */,
-				9D361C471BAFE95100E1F4F2 /* EZInputPicture.m in Sources */,
-				9D361C481BAFE95100E1F4F2 /* EZOutputView.m in Sources */,
-				9DFB458C1BAF2CEE00A14401 /* main.m in Sources */,
-				9D361C741BAFF38900E1F4F2 /* EZAppDelegate.m in Sources */,
-				9D361C771BAFF3F200E1F4F2 /* EZFilterViewController.m in Sources */,
+				9D4979A71BB103B7002A6ED6 /* EZFilterManager.m in Sources */,
+				9D4979A81BB103B7002A6ED6 /* EZInputPicture.m in Sources */,
+				9D4979A91BB103B7002A6ED6 /* EZOutputView.m in Sources */,
+				9D4979B01BB10455002A6ED6 /* EZAppDelegate.m in Sources */,
+				9D4979AB1BB10426002A6ED6 /* main.m in Sources */,
+				9D4979B11BB10455002A6ED6 /* EZFilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +267,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9DFB45981BAF2CEE00A14401 /* LaunchScreen.storyboard */ = {
+		9D4979B21BB10471002A6ED6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DFB45991BAF2CEE00A14401 /* Base */,
+				9D4979B31BB10471002A6ED6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -362,11 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/framework/**";
-				INFOPLIST_FILE = "$(SRCROOT)/EZFilterSample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -382,11 +381,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/framework/**";
-				INFOPLIST_FILE = "$(SRCROOT)/EZFilterSample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-all_load",
