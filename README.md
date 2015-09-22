@@ -1,5 +1,7 @@
 ## EZFilter  
 
+[![building](https://img.shields.io/badge/building-1.0.0-brightgreen.svg)](http://shields.io/)
+
 #### EZFilter是什么?  
 
 - 使用GPUImage封装几种滤镜效果, 滤镜可以组合使用. 
