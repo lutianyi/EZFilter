@@ -25,15 +25,15 @@
     
     EZFilterManager * filterManager = [EZFilterManager managerWithInput:inputPicture output:outputView];
     
-    /*[filterManager processImageWithFilter:[filterManager colorInvertFilter] completionHandler:^{
+    [filterManager processImageWithFilter:self.imageFilter completionHandler:^{
         
         NSLog(@"加载完成");
-    }];*/
-
-    [filterManager compositeFilters:@[[filterManager sepiaFilter], [filterManager contrastFilterWithContrast:2.0]] completionHandler:^(GPUImageFilterPipeline *filterPipeline) {
-       
-        NSLog(@"组合滤镜加载完成");
     }];
+
+//    [filterManager compositeFilters:@[[filterManager sepiaFilter], [filterManager contrastFilterWithContrast:2.0]] completionHandler:^(GPUImageFilterPipeline *filterPipeline) {
+//       
+//        NSLog(@"组合滤镜加载完成");
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {

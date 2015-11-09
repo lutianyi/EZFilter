@@ -32,23 +32,24 @@
 
 #pragma mark - glass Sphere Filter
 
-- (GPUImageFilter *)glassSphereFilter {
++ (GPUImageFilter *)glassSphereFilter {
         
     return [[GPUImageGlassSphereFilter alloc] init];
 }
 
 #pragma mark - Sepia Filter
 
-- (GPUImageFilter *)sepiaFilter {
++ (GPUImageFilter *)sepiaFilter {
     
     return [[GPUImageSepiaFilter alloc] init];
 }
 
 #pragma mark - RGB Filter
 
-- (GPUImageFilter *)RGBFilterWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue {
++ (GPUImageFilter *)RGBFilterWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue {
     
     GPUImageRGBFilter * RGBFilter = [[GPUImageRGBFilter alloc] init];
+    
     RGBFilter.red = red;
     RGBFilter.green = green;
     RGBFilter.blue = blue;
@@ -58,7 +59,7 @@
 
 #pragma mark - toon Filter
 
-- (GPUImageFilter *)toonFilterWithThreshold:(CGFloat)threshold quantizationLevels:(CGFloat)quantizationLevels  {
++ (GPUImageFilter *)toonFilterWithThreshold:(CGFloat)threshold quantizationLevels:(CGFloat)quantizationLevels  {
     
     GPUImageToonFilter * toonFilter = [[GPUImageToonFilter alloc] init];
     toonFilter.threshold = threshold;
@@ -69,7 +70,7 @@
 
 #pragma mark - Average Luminance Threshold
 
-- (GPUImageFilter *)averageLuminanceThresholdFilterWithMultiplier:(CGFloat)multiplier {
++ (GPUImageFilter *)averageLuminanceThresholdFilterWithMultiplier:(CGFloat)multiplier {
     
     GPUImageAverageLuminanceThresholdFilter * averageLuminanceThresholdFilter = [[GPUImageAverageLuminanceThresholdFilter alloc] init];
     averageLuminanceThresholdFilter.thresholdMultiplier = multiplier;
@@ -79,14 +80,14 @@
 
 #pragma mark - Sketch Filter
 
-- (GPUImageFilter *)sketchFilter {
++ (GPUImageFilter *)sketchFilter {
     
     return [[GPUImageSketchFilter alloc] init];
 }
 
 #pragma mark - Contrast Filter
 
-- (GPUImageFilter *)contrastFilterWithContrast:(CGFloat)contrast {
++ (GPUImageFilter *)contrastFilterWithContrast:(CGFloat)contrast {
     
     GPUImageContrastFilter * contrastFilter = [[GPUImageContrastFilter alloc] init];
     contrastFilter.contrast = contrast;
@@ -96,7 +97,7 @@
 
 #pragma mark - Exposure Filter
 
-- (GPUImageFilter *)exposureFilterWithExposure:(CGFloat)exposure {
++ (GPUImageFilter *)exposureFilterWithExposure:(CGFloat)exposure {
     
     GPUImageExposureFilter * exposureFilter = [[GPUImageExposureFilter alloc] init];
     exposureFilter.exposure = exposure;
@@ -106,7 +107,7 @@
 
 #pragma mark - Brightness Filter
 
-- (GPUImageFilter *)brightnessFilterWithBrightness:(CGFloat)brightness {
++ (GPUImageFilter *)brightnessFilterWithBrightness:(CGFloat)brightness {
     
     GPUImageBrightnessFilter * brightnessFilter = [[GPUImageBrightnessFilter alloc] init];
     brightnessFilter.brightness = brightness;
@@ -116,7 +117,7 @@
 
 #pragma mark - Blur Filter
 
-- (GPUImageFilter *)blurFilterWithRadius:(CGFloat)pixels {
++ (GPUImageFilter *)blurFilterWithRadius:(CGFloat)pixels {
     
     GPUImageiOSBlurFilter * blurFilter = [[GPUImageiOSBlurFilter alloc] init];
     blurFilter.blurRadiusInPixels = pixels;
@@ -126,7 +127,7 @@
 
 #pragma mark - Color Invert Filter
 
-- (GPUImageFilter *)colorInvertFilter {
++ (GPUImageFilter *)colorInvertFilter {
     
     return [[GPUImageColorInvertFilter alloc] init];
 }

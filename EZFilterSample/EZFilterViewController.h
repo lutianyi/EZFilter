@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EZFilterManager.h"
 
 @interface EZFilterViewController : UIViewController
+
+@property (nonatomic, strong) GPUImageFilter * imageFilter;
 
 @end

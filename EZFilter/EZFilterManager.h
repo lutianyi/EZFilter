@@ -44,12 +44,12 @@
 /**
  *  水晶球滤镜
  */
-- (GPUImageFilter *)glassSphereFilter;
++ (GPUImageFilter *)glassSphereFilter;
 
 /**
  *  褐色滤镜
  */
-- (GPUImageFilter *)sepiaFilter;
++ (GPUImageFilter *)sepiaFilter;
 
 /**
  *  RGB滤镜 RGB峰值为1.0
@@ -58,7 +58,7 @@
  *  @param green 绿色
  *  @param blue  蓝色
  */
-- (GPUImageFilter *)RGBFilterWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue;
++ (GPUImageFilter *)RGBFilterWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue;
 
 /**
  *  卡通滤镜
@@ -66,51 +66,51 @@
  *  @param threshold          阈值默认 0.2
  *  @param quantizationLevels 量子化等级默认 10.0
  */
-- (GPUImageFilter *)toonFilterWithThreshold:(CGFloat)threshold quantizationLevels:(CGFloat)quantizationLevels;
++ (GPUImageFilter *)toonFilterWithThreshold:(CGFloat)threshold quantizationLevels:(CGFloat)quantizationLevels;
 
 /**
  *  黑白亮度平均阈值
  *
  *  @param multiplier 阈值乘数, 默认1.0
  */
-- (GPUImageFilter *)averageLuminanceThresholdFilterWithMultiplier:(CGFloat)multiplier;
++ (GPUImageFilter *)averageLuminanceThresholdFilterWithMultiplier:(CGFloat)multiplier;
 
 /**
  *  素描滤镜
  */
-- (GPUImageFilter *)sketchFilter;
++ (GPUImageFilter *)sketchFilter;
 
 /**
  *  对比度滤镜
  *
  *  @param contrast 对比度等级: 0.0 ~ 4.0 (1.0为正常等级)
  */
-- (GPUImageFilter *)contrastFilterWithContrast:(CGFloat)contrast;
++ (GPUImageFilter *)contrastFilterWithContrast:(CGFloat)contrast;
 
 /**
  *  曝光滤镜
  *
  *  @param exposure 曝光等级: -10.0 ~ 10.0
  */
-- (GPUImageFilter *)exposureFilterWithExposure:(CGFloat)exposure;
++ (GPUImageFilter *)exposureFilterWithExposure:(CGFloat)exposure;
 
 /**
  *  高亮滤镜
  *
  *  @param brightness 高亮值为: 0.0 ~ 1.0
  */
-- (GPUImageFilter *)brightnessFilterWithBrightness:(CGFloat)brightness;
++ (GPUImageFilter *)brightnessFilterWithBrightness:(CGFloat)brightness;
 
 /**
  *  模糊滤镜
  *
  *  @param pixels 模糊半径的像素点
  */
-- (GPUImageFilter *)blurFilterWithRadius:(CGFloat)pixels;
++ (GPUImageFilter *)blurFilterWithRadius:(CGFloat)pixels;
 
 /**
  *  反色滤镜
  */
-- (GPUImageFilter *)colorInvertFilter;
++ (GPUImageFilter *)colorInvertFilter;
 
 @end

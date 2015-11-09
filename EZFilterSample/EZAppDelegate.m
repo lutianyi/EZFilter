@@ -7,7 +7,7 @@
 //
 
 #import "EZAppDelegate.h"
-#import "EZFilterViewController.h"
+#import "EZFilterTableViewController.h"
 
 @interface EZAppDelegate ()
 
@@ -21,11 +21,14 @@
     
     [self.window setBackgroundColor:[UIColor whiteColor]];
     
-    EZFilterViewController * filterVC = [[EZFilterViewController alloc] init];
-    
-    [self.window setRootViewController:filterVC];
-    
     [self.window makeKeyAndVisible];
+    
+    EZFilterTableViewController * filterTVC = [[EZFilterTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:filterTVC];
+    
+    [self.window setRootViewController:navigationController];
+    
     
     return YES;
 }
